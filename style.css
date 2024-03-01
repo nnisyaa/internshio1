@@ -24,12 +24,14 @@ nav{
 .logo{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 .nft{
     width: 120px;
     height: 15px;
     width: 600;
     margin-top: 5px;
+    cursor: pointer;
 }
 .right-nav{
     display: none;
@@ -156,6 +158,7 @@ header{
 .dogimg{
     width: 315px;
     height: 315px;
+    cursor: pointer;
 }
 .placeholder-images{
     margin: 0 auto;
@@ -166,6 +169,7 @@ header{
 .placeholder-images img{
     height: 95px;
     width: 95px;
+    cursor: pointer;
 }
 .secondary-photo-placeholder{
     border-radius: 20px;
@@ -175,6 +179,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .secondary-photo-placeholder p{
     font-family: "Space Mono";
@@ -195,6 +200,7 @@ header{
 .placeholder2 img{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 .placeholder2.p{
     font-size: 16px;
@@ -235,6 +241,8 @@ header{
     height: 100px;
     border-radius: 20px;
     margin-top: 20px;
+    gap: 20px;
+    cursor: pointer;
 }
 .left-creators1>button{
     border-radius: 20px;
@@ -247,6 +255,7 @@ header{
     background-color: #2B2B2B;
     gap: 12px;
     margin-top: 45px;
+    cursor: pointer;
 }
 .left-creators1>button>p{
     color: white;
@@ -261,14 +270,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    position: fixed;
-    top: 1200px;
-    left: 55px;
+    margin-top: 10px;
+    color: #858584;
+    font-family: "Space Mono";
+    font-size: 16px;
 }
 .creator-avatar{
-    z-index: 0;
-    padding: 20px;
+    padding-left: 20px;
+    margin-top: -20px;
 }
 .creator-avatar>img{
     width: 60px;
@@ -295,6 +304,60 @@ header{
 .tablet{
     display: none;
 }
+.browse-categories-h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.browse-categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+.browse-categories-element{
+    width: 147.5px;
+    height: 209px;
+    background-color: #3B3B3B;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+.browse-categories-element-img-container{
+    background-image: url(images/br1.png);
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.browse-categories-element-img-container>img{
+    width: 80px;
+    height: 80px;
+}
+.browse-categories-element>p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
+}
+.br2{
+    background-image: url(images/br2.png);
+}
+.br3{
+    background-image: url(images/br3.png);
+}
+.br4{
+    background-image: url(images/br4.png);
+}
+.br5{
+    background-image: url(images/br5.png);
+}
+.br6{
+    background-image: url(images/br6.png);
+}
+.br7{
+    background-image: url(images/br7.png);
+}
+.br8{
+    background-image: url(images/br8.png);
 }
 
 
@@ -309,15 +372,7 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -367,11 +422,13 @@ header{
     .logo{
         width: 24px;
         height: 24px;
+        cursor: pointer;
     }
     .nft{
         width: 150px;
         height: 15px;
         width: 600;
+        cursor: pointer;
     }
     .right-nav{
         display: none;
@@ -502,6 +559,7 @@ header{
     .dogimg{
         width: 330px;
         height: 330px;
+        cursor: pointer;
     }
     .placeholder-images{
         margin: 0 auto;
@@ -512,6 +570,7 @@ header{
     .placeholder-images img{
         height: 100px;
         width: 100px;
+        cursor: pointer;
     }
     .secondary-photo-placeholder{
         border-radius: 20px;
@@ -521,6 +580,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .secondary-photo-placeholder p{
         font-family: "Space Mono";
@@ -541,6 +601,7 @@ header{
     .placeholder2 img{
         width: 24px;
         height: 24px;
+        cursor: pointer;
     }
     .placeholder2.p{
         font-size: 16px;
@@ -550,7 +611,6 @@ header{
         width: 690px;
         margin: 0 auto;
         padding-top: 40px;
-        height: 100px;
     }
     .creator-header{
         display: flex;
@@ -570,6 +630,7 @@ header{
         background-color: #2B2B2B;
         gap: 12px;
         margin-top: 45px;
+        cursor: pointer;
     }
     .left-creators>button>p{
         color: white;
@@ -601,6 +662,7 @@ header{
         height: 100px;
         border-radius: 20px;
         margin-top: 10px;
+        cursor: pointer;
     }
     .top-number{
         border-radius: 50%;
@@ -610,14 +672,9 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 1;
-        position: fixed;
-        top: 1200px;
-        left: 55px;
-    }
-    .creator-avatar{
-        z-index: 0;
-        padding: 20px;
+        color: #858584;
+        font-family: "Space Mono";
+        font-size: 16px;
     }
     .creator-avatar>img{
         width: 60px;
@@ -641,21 +698,81 @@ header{
         font-size: 16px;
         font-weight: 400;
     }
-    
+    .desktop{
+        display: none;
+    }
+    .browse-categories-h3{
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 80px;
+    }
+    .browse-categories{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .browse-categories-element{
+        width: 147.5px;
+        height: 209px;
+        background-color: #3B3B3B;
+        border-radius: 20px 20px 20px 20px;
+        cursor: pointer;
+    }
+    .browse-categories-element-img-container{
+        background-image: url(images/br1.png);
+        height: 142px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .browse-categories-element-img-container>img{
+        width: 80px;
+        height: 80px;
+    }
+    .browse-categories-element>p{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .br2{
+        background-image: url(images/br2.png);
+    }
+    .br3{
+        background-image: url(images/br3.png);
+    }
+    .br4{
+        background-image: url(images/br4.png);
+    }
+    .br5{
+        background-image: url(images/br5.png);
+    }
+    .br6{
+        background-image: url(images/br6.png);
+    }
+    .br7{
+        background-image: url(images/br7.png);
+    }
+    .br8{
+        background-image: url(images/br8.png);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1281px){
     body{
         font-family:Work Sans;
@@ -676,11 +793,13 @@ header{
     .logo{
         width: 32px;
         height: 32px;
+        cursor: pointer;
     }
     .nft{
         width: 199px;
         height: 20px;
         margin-left: 10px;
+        cursor: pointer;
     }    
     .right-nav{
         list-style-type: none;
@@ -692,6 +811,7 @@ header{
         font-size: 16px;
         font-weight: 600;
         padding: 0 20px;
+        cursor: pointer;
     }
     .right-nav li button{
         border-radius: 20px;
@@ -702,6 +822,7 @@ header{
         justify-content: center;
         align-items: center;
         gap: 12px;
+        cursor: pointer;
     }
     .right-nav li button p{
         color: #FFF;
@@ -831,6 +952,7 @@ header{
     .dogimg{
         width: 330px;
         height: 330px;
+        cursor: pointer;
     }
     .placeholder-images{
         margin: 0 auto;
@@ -841,6 +963,7 @@ header{
     .placeholder-images img{
         height: 100px;
         width: 100px;
+        cursor: pointer;
     }
     .secondary-photo-placeholder{
         border-radius: 20px;
@@ -850,6 +973,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .secondary-photo-placeholder p{
         font-family: "Space Mono";
@@ -870,27 +994,16 @@ header{
     .placeholder2 img{
         width: 24px;
         height: 24px;
+        cursor: pointer;
     }
     .placeholder2>p{
         font-size: 16px;
         font-weight: 400;
     }  
-    
-    
-
-
-
-
-
-
-
-
-
-
-    /* .creators{
+    .creators{
         width: 1050px;
         margin: 0 auto;
-        padding-top: 40px;
+        padding-top: 120px;
         height: 100px;
     }
     .creator-header{
@@ -911,6 +1024,7 @@ header{
         background-color: #2B2B2B;
         gap: 12px;
         margin-top: 45px;
+        cursor: pointer;
     }
     .left-creators>button>p{
         color: white;
@@ -919,29 +1033,32 @@ header{
     }
     .right-creators>h3{
         padding-top: 20px;
-        font-size: 28px;
+        font-size: 38px;
         font-weight: 600;
-        width: 343px;
+        width: 703px;
     }
     .right-creators>p{
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 22px;
         font-weight: 400;
-        width: 343px;
+        width: 703px;
     }
     .creators-item{
-        margin-top: 40px;
+        margin-top: 60px;
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
     }
     .creator{
-        display: flex;
         background: #3B3B3B;
-        width: 330px;
-        height: 100px;
+        width: 240px;
+        height: 238px;
         border-radius: 20px;
-        margin-top: 10px;
+        cursor: pointer;
+    }
+    .creator-number-avatar-container{
+        display: flex;
+        gap: 10px;
     }
     .top-number{
         border-radius: 50%;
@@ -951,18 +1068,20 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 1;
-        position: fixed;
-        top: 1200px;
-        left: 55px;
+        margin-left: 20px;
+        margin-top: 18px;
+        color: #858584;
+        font-size: 16px;
+        font-family: 'Space Mono';
     }
     .creator-avatar{
-        z-index: 0;
-        padding: 20px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
     }
     .creator-avatar>img{
-        width: 60px;
-        height: 60px;
+        width: 120px;
+        height: 120px;
     }
     .creator-info{
         padding-top: 20px;
@@ -971,15 +1090,78 @@ header{
         font-size: 22px;
         font-weight: 600;
         height: 31px;
+        display: flex;
+        justify-content: center;
     }
     .span1{
         font-size: 16px;
         font-weight: 400;
         color: var(--caption-label-text, #858584);
+        margin-left: 20px;
     }
     .span2{
         font-family: "Space Mono";
         font-size: 16px;
-        font-weight: 400;
-    } */
+        font-weight: 400;   
+    }
+    .browse-categories-h3{
+        font-size: 38px;
+        font-weight: 600;
+        margin-top: 120px;
+    }
+    .browse-categories{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 60px;
+    }
+    .browse-categories-element{
+        width: 240px;
+        height: 314.8px;
+        background-color: #3B3B3B;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .browse-categories-element-img-container{
+        background-image: url(images/br1.png);
+        height: 240px;
+        width: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .browse-categories-element-img-container>img{
+        width: 100px;
+        height: 100px;
+    }
+    .browse-categories-element>p{
+        font-size: 22px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .br2{
+        background-image: url(images/br2.png);
+    }
+    .br3{
+        background-image: url(images/br3.png);
+    }
+    .br4{
+        background-image: url(images/br4.png);
+    }
+    .br5{
+        background-image: url(images/br5.png);
+    }
+    .br6{
+        background-image: url(images/br6.png);
+    }
+    .br7{
+        background-image: url(images/br7.png);
+    }
+    .br8{
+        background-image: url(images/br8.png);
+    }
 }  
