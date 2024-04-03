@@ -359,19 +359,101 @@ header{
 .br8{
     background-image: url(images/br8.png);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.discover{
+    margin-top: 40px;
+}
+.discover-element{
+    margin-top: 40px;
+    height: 402px;
+    width: 315px;
+    background-color: #3B3B3B;
+    border-radius: 20px ;
+    cursor: pointer;
+}
+.discover-element-img>img{
+    width: 315px;
+    height: 238px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+}
+.discover-topic{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.discover-avatar-container{
+    display: flex;
+    margin-left: 20px;
+    gap: 12px;
+    margin-top: 5px;
+}
+.discover-avatar-container>p{
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 400;
+}   
+.discover-characteristics{
+    display: flex;
+    font-family: "Space Mono";
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.discover-characteristics>div>.fline{
+    font-size: 12px;
+    font-weight: 400;
+    color: #858584;
+}
+.discover-characteristics>div>.sline{
+    font-size: 12px;
+    font-weight: 400;
+}
+.how-works-h3{
+    margin-top: 40px;
+    font-size: 28px;    
+    font-weight: 600;
+}
+.how-works-p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.how-work{
+    margin-top: 40px;
+}
+.how-works-element{
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+    width: 315px;
+    height: 157px;
+    display: flex;
+    margin-top: 20px;
+    gap: -20px; 
+}
+.how-works-element-text{
+    font-size: 12px;
+    font-weight: 400;
+    width: 155px;
+    height: 85px;
+}
+.how-works-element-header{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.how-works-element-text2{
+    line-height: 16.8px;
+    padding-top: 10px;
+    width: 155px;
+}
+.how-works-element-img{
+    height: 100px;
+    width: 100px;
+    margin: 33.44px 20.44px;
+}
+.random1{
+    width: 160px;
+    height: 160px;
+}
 }
 
 
@@ -756,17 +838,119 @@ header{
     .br8{
         background-image: url(images/br8.png);
     }
+    .discover{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .discover-tablet{
+        display: none;
+    }
+    .discover-element{
+        margin-top: 40px;
+        height: 468px;
+        width: 330px;
+        background-color: #3B3B3B;
+        border-radius: 20px ;
+        cursor: pointer;
+    }
+    .discover-element-img{
+        width: 330px;
+        height: 295px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    }
+    .discover-topic{
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .discover-avatar-container{
+        display: flex;
+        margin-left: 20px;
+        gap: 12px;
+        margin-top: 5px;
+    }
+    .discover-avatar-container>p{
+        font-family: "Space Mono";
+        font-size: 16px;
+        font-weight: 400;
+    }   
+    .discover-characteristics{
+        display: flex;
+        font-family: "Space Mono";
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+    .discover-characteristics>div>.fline{
+        font-size: 12px;
+        font-weight: 400;
+        color: #858584;
+    }
+    .discover-characteristics>div>.sline{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .discover-elements{
+        display: flex;
+        gap: 30px;
+    }
+    .discover-button>button{
+        width: 187px;
+        cursor: pointer;
+    }
+    .how-works-h3{
+        margin-top: 40px;
+        font-size: 28px;    
+        font-weight: 600;
+    }
+    .how-works-p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .how-works{
+        margin-top: 40px;
+        display: flex;
+        gap: 30px;
+    }
+    .how-works-element{
+        border-radius: 20px;
+        background: var(--Background---Secondary, #3B3B3B);
+        width: 210px;
+        height: 320px;
+        margin-top: 20px;
+    }
+    .how-works-element-text{
+        font-size: 12px;
+        font-weight: 400;
+        width: 155px;
+        height: 85px;
+        margin: 0 auto;
+    }
+    .how-works-element-header{
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+    .how-works-element-text2{
+        line-height: 16.8px;
+        padding-top: 10px;
+        width: 155px;
+    }
+    .random1{
+        height: 168px;
+        width: 205.39px;
+        margin: 0 auto;
+        padding-top: -30px;
+    }
+    .how-works-element-img{
+        height: 168px;
+        width: 205px;
+        margin: 0 auto;
 
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 
@@ -1164,4 +1348,123 @@ header{
     .br8{
         background-image: url(images/br8.png);
     }
+    .discover{
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .discover-element{
+        margin-top: 40px;
+        height: 468px;
+        width: 330px;
+        background-color: #3B3B3B;
+        border-radius: 20px ;
+        cursor: pointer;
+    }
+    .discover-element-img{
+        width: 330px;
+        height: 296px;
+    }
+    .discover-element-img-con{
+        height: 296px;
+        object-fit: cover;
+    }
+    .discover-topic{
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .discover-avatar-container{
+        display: flex;
+        margin-left: 30px;
+        gap: 12px;
+        margin-top: 5px;
+    }
+    .discover-avatar-container>p{
+        font-family: "Space Mono";
+        font-size: 16px;
+        font-weight: 400;
+    }   
+    .discover-characteristics{
+        display: flex;
+        font-family: "Space Mono";
+        justify-content: space-between;
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+    .discover-characteristics>div>.fline{
+        font-size: 12px;
+        font-weight: 400;
+        color: #858584;
+    }
+    .discover-characteristics>div>.sline{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 7px;
+    }
+    .discover-elements{
+        display: flex;
+        gap: 30px;
+    }
+    .discover-button>button{
+        width: 187px;
+        cursor: pointer;
+    }
+    .how-works-h3{
+        margin-top: 80px;
+        font-size: 38px;    
+        font-weight: 600;
+    }
+    .how-works-p{
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .how-works{
+        margin-top: 48px;
+        display: flex;
+        gap: 30px;
+    }
+    .how-works-element{
+        border-radius: 20px;
+        background: var(--Background---Secondary, #3B3B3B);
+        width: 330px;
+        height: 439px;
+        margin-top: 20px;
+    }
+    .how-works-element-text{
+        font-size: 16px;
+        font-weight: 400;
+        width: 270px;
+        height: 88px;
+        margin: 0 auto;
+    }
+    .how-works-element-header{
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .how-works-element-text2{
+        line-height: 22.4px;
+        padding-top: 10px;
+        width: 270px;
+    }
+    .random1{
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        padding-top: -30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .how-works-element-img{
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+
+    }
+
 }  
